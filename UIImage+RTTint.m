@@ -52,7 +52,7 @@
 
 // Tint: Color + Insets
 -(UIImage*)rt_tintedImageWithColor:(UIColor*)color insets:(UIEdgeInsets)insets {
-    [self rt_tintedImageWithColor:color insets:insets level:1.0f];
+    return [self rt_tintedImageWithColor:color insets:insets level:1.0f];
 }
 
 // Tint: Color + Insets + level
